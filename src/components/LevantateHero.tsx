@@ -1,5 +1,4 @@
 import React from 'react'
-import heroBackground from '../assets/images/church-gathering.jpg'
 import levantateLogo from './images/logo.png'
 
 const LevantateHero: React.FC = () => {
@@ -7,7 +6,7 @@ const LevantateHero: React.FC = () => {
     <div className="relative bg-blue-800 text-white py-16 md:py-24">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{backgroundImage: `url(${heroBackground})`, opacity: 0.4}}
+
       ></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
