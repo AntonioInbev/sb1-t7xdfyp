@@ -1,5 +1,6 @@
 import React from 'react'
 import { Mail, Phone, MapPin, User } from 'lucide-react'
+import pastor from './images/pastor_pre.jpeg'
 
 const Contact: React.FC = () => {
   return (
@@ -23,13 +24,6 @@ const Contact: React.FC = () => {
                 <a href="tel:+529381594164" className="hover:text-blue-600">938 159 4164</a>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <Mail className="w-6 h-6 text-blue-600 flex-shrink-0" />
-              <div>
-                <p className="font-semibold">Correo Electrónico</p>
-                <a href="mailto:info@iafcjmacuspana.org" className="hover:text-blue-600">info@iafcjmacuspana.org</a>
-              </div>
-            </div>
             <div className="flex items-start space-x-4">
               <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
               <div>
@@ -40,8 +34,8 @@ const Contact: React.FC = () => {
           </div>
           <div className="mt-8 md:mt-0">
             <img 
-              src="/pastor-image.jpg" 
-              alt="Pastor Aldo Alberto Arena Martinez" 
+              src={pastor} 
+              alt="Aldo Alberto Arena Martinez" 
               className="w-full h-auto rounded-lg shadow-md"
             />
             <p className="text-center mt-4 text-sm text-gray-600">Pastor Aldo Alberto Arena Martinez</p>

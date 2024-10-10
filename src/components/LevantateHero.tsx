@@ -1,6 +1,6 @@
 import React from 'react'
 import heroBackground from '../assets/images/church-gathering.jpg'
-import levantateLogo from '../assets/images/levantate-logo.png'
+import levantateLogo from './images/logo.png'
 
 const LevantateHero: React.FC = () => {
   return (
